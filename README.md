@@ -18,7 +18,7 @@ Command line switches are
 - -t: increase threads: t threads (default 5) are created/preallocated and put to sleep until a client connects, when there are no more sleeping threads, a t thread is created unless max threads has reached
 - -D: delays read and write operations
 - -v: enables the verbosity of the program
-- -p port number: specifies replication server port (default ). when included as a command line switch, servers handle the replication to peers on the same network 
+- -p port number: specifies replication server port. when included as a command line switch, servers handle the replication to peers on the same network 
 - -d: disables daemon mode (by default, program goe into a daemon mode)
 - -x: enables the peers discovery. Otherwise, for replication to peers, {peer_hostname}:{peer_replication_port} has to be defined when triggering the program.
 Program can be launched as ./shfd -s ${port} -f ${port} 
