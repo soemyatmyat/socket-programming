@@ -1,6 +1,6 @@
 # socket-programming (First foray)
 
-A distributed file server (open, read, write, lseek, close files) written in C++ with POSIX API for linux. 
+A distributed file server (open, read, write, lseek, close files), a TCP program written in C++ with POSIX API for linux. 
 - Simulatenous read and writes, handled with mutex and conditional variables. 
 - - Read and writes cannot happen at the same time. 
 - - Only one write at a time. 
