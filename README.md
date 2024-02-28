@@ -132,7 +132,7 @@ To check if the file descriptor is opened in file server for file manipulation c
 
 ---
 ## C. Assumptions
-Followings are assumed to fulfill the requirements of a3.pdf.
+Followings are assumed to fulfill the requirements.
 ### File Server
 1. When delay mode is enabled with command line switch -D, client will wait until the server returns the replies (minimum of 30 seconds (6 *5) + additional 10 buffer seconds) as delay for write is set to 6 seconds and read is set to 3 seconds.
 2. Clients opening the same file share the position of the cursor/pointer in the file for reading/ writing as they share the same file descriptor, as per page 2 of a3.pdf.
